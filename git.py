@@ -90,5 +90,20 @@ if you try to merge a branch, when main is also changed, you might face merge co
 where you are in main/merge branch, you see head, and current in the file, where you can remove the conflict
 by keeping what you want and save it, then commit it and then merge the file.
  
+Github is acloud platform for version control, to collaborate with others,
+git is local version control system.
+We can use git with other cloud platforms like github-> like bitBucket.
+
+the commands are same
+
+to push to the cloud, we go to github, create new repository and then we can use those commands to push
+our existing repo to the cloud 
+
+
+If you make changes or anyone make changes in the cloud, what we can do to bring it to our local machine is:
+
+git fetch-downloads all the history
+
+git merge - merges with the local machine
 
 '''
